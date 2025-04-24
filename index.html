@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamed Rajab Hussein - Portfolio">
+  <meta name="keywords" content="web developer, portfolio, Mohamed">
+  <meta name="author" content="Mohamed Rajab Hussein">
+  <title>Mohamed's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body onload="showGreeting()">
+  <header class="hero">
+    <div class="overlay">
+      <h1>Hello, I'm Mohamed</h1>
+      <p>Web Developer | Designer | Innovator</p>
+      <a href="portfolio.html" class="btn">See My Work</a>
+    </div>
+  </header>
+
+  <nav class="top-nav">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html">Survey</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to My Digital Space</h2>
+      <p>I'm passionate about crafting responsive websites with modern UI/UX trends.</p>
+    </section>
+
+    <section class="map-iframe">
+      <h2>Where I’m Based</h2>
+      <div class="map-section">
+        <img src="images/map1.png" usemap="#citymap" alt="Location Map" width="600" />
+        <map name="citymap">
+          <area shape="rect" coords="34,44,270,350" alt="Dar es Salaam" href="https://en.wikipedia.org/wiki/Dar_es_Salaam" target="_blank" />
+          <area shape="circle" coords="450,300,50" alt="Dodoma" href="https://en.wikipedia.org/wiki/Dodoma" target="_blank" />
+        </map>
+      </div>
+
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jV8B24rSN5o" title="Portfolio Inspiration" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohamed Rajab Hussein</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey | Mohamed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html" class="active">Survey</a></li>
+    </ul>
+  </nav>
+
+  <main class="intro">
+    <h2>User Survey</h2>
+    <form>
+      <label>How did you find this site?</label><br />
+      <input type="radio" name="source" id="google" />
+      <label for="google">Google</label><br />
+      <input type="radio" name="source" id="friend" />
+      <label for="friend">A Friend</label><br />
+      <input type="radio" name="source" id="social" />
+      <label for="social">Social Media</label><br /><br />
+
+      <label>What are you interested in?</label><br />
+      <input type="checkbox" id="web" />
+      <label for="web">Web Development</label><br />
+      <input type="checkbox" id="design" />
+      <label for="design">UI Design</label><br />
+      <input type="checkbox" id="mentorship" />
+      <label for="mentorship">Mentorship</label><br /><br />
+
+      <label for="feedback">Any suggestions?</label><br />
+      <textarea id="feedback" rows="4"></textarea><br /><br />
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohamed Rajab Hussein</p>
+  </footer>
+</body>
+</html>
